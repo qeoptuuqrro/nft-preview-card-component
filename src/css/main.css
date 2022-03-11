@@ -86,6 +86,14 @@ body {
   display: flex;
 }
 
+.card_price {
+  color: hsl(178, 100%, 50%);
+}
+
+.card_time {
+  color: hsl(215, 51%, 70%);
+}
+
 .icon {
   margin-right: 6px;
 }
@@ -102,4 +110,17 @@ body {
   border: 2px solid white;
   border-radius: 50px;
   margin-right: 15px;
+}
+
+.author {
+  color: hsl(215, 51%, 70%);
+}
+
+.name {
+  color: white;
+  margin-left: 5px;
+}
+
+.name:hover {
+  color: hsl(178, 100%, 50%);
 }
