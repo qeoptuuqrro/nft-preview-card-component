@@ -14,6 +14,10 @@ video {
   box-sizing: border-box;
 }
 
+p {
+  font-weight: 300;
+}
+
 :root {
   --Soft-blue: hsl(215, 51%, 70%);
   --cyan: hsl(178, 100%, 50%);
@@ -24,8 +28,30 @@ ul {
 }
 
 body {
-  font-size: 18px;
+  font-size: 12px;
   font-family: "Outfit", sans-serif;
   background-color: hsl(217, 54%, 11%);
   color: hsl(0, 0%, 100%, 65%);
+  padding: 1.25rem;
+}
+.card {
+  padding: 1.25rem;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 0.5rem;
+}
+
+.card h2 {
+  color: white;
+  margin: 1rem 0.5rem 0.5rem 0;
+}
+
+.card ul {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.attribution {
+  font-size: 12px;
+  text-align: center;
 }
