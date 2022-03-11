@@ -58,6 +58,30 @@ body {
   color: hsl(178, 100%, 50%);
 }
 
+.card_text {
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+  font-weight: 200;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card_price {
+  align-items: center;
+  display: flex;
+}
+
+.card_time {
+  align-items: center;
+  display: flex;
+}
+
 * {
   margin: 0;
   padding: 0;
